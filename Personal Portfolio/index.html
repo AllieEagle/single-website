@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/favicon.Png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- header begins -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="image/1.jpg" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="image/ALLIE EAGLE.pdf" download target="_blank">Resume</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p><b>Hello, I'm</b></p>
+                <h1><span>Allie Eagle</span></h1>
+                <p>a <b>Full-Stack Web Developer</b> from <b>Nigeria</b></p>
+                <a href="image/CV+Allie+Eagle+hire.pdf" download target="_blank" class="btn btn2"> <i
+                        class="fa fa-download"></i> Download Cv</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- header ends -->
+
+    <!-- About Me begins -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Full-Stack Developer with over 4 years of experience leading both front-end and Back-end
+                        development, and performing quality assurance. Lead a team of 5 – 15 People across technology,
+                        business and design departments</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Websites</li>
+                            <li><span>Digital Marketing</span><br>Online Marketing</li>
+                            <li><span>Graphics Design</span><br>Designing Graphics</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Designing Websites</li>
+                            <li><span>2019 - 2021</span><br>Online Marketing</li>
+                            <li><span>2018 - 2019</span><br>Graphics Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2023</span><br>Federal Polytechnic Offa, Offa, Kwara State (Higher National
+                                Diploma).</li>
+                            <li><span>2018 - 2020</span><br>Federal Polytechnic Offa, Offa, Kwara State (National
+                                Diploma).</li>
+                            <li><span>2010 - 2017</span><br>Federal Government College Ikirun, Ikirun, Osun State</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Me ends -->
+
+        <!-- Services begins -->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Services</h1>
+                <h3>What I Do for Clients</h3>
+                <p class="service">Most common methods for designing websites that work well on desktop is responsive
+                    and adaptive design</p>
+                <div class="services-list">
+                    <div>
+                        <i class="fa fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p> Web development refers to the design of websites that are displayed on the internet.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-crop"></i>
+                        <h2>Graphics Design</h2>
+                        <p>Graphics Design refers to the visual illustration of something</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-download"></i>
+                        <h2>Digital Marketing</h2>
+                        <p>Digital Marketing refers to the use of Electronic devices to market your product</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /* Services End */ -->
+
+        <!-- Portfoli begin -->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <h3>My Amazing Works</h3>
+                <p class="service">I Can Design Anything You Want</p>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/1.jpg" alt="">
+                        <div class="layer">
+                            <h3>Web Developer</h3>
+                            <p>How to be appreciated for your hard work as a Web Developer</p>
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/1.jpg" alt="">
+                        <div class="layer">
+                            <h3>Graphics Design</h3>
+                            <p>How to be appreciated for your hard work as a Graphics Designer</p>
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/1.jpg" alt="">
+                        <div class="layer">
+                            <h3>Digital Marketing</h3>
+                            <p>How to be appreciated for your hard work as a Digital Marketer</p>
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/09074919519" class="btn">See More</a>
+
+            </div>
+        </div>
+
+        <!-- Portfolio Ends -->
+
+        <!-- Contact Begins  -->
+        <div id="contact">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <p class="hear">I Want To Hear From You</p>
+                        <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and
+                            6:00 p.m. WAT, Monday to Friday</p>
+                        <p><i class="fa fa-paper-plane"></i> allieeaglewebdesign@gmail.com</p>
+                        <p><i class="fa fa-phone-square"></i>+2349154644389</p>
+                        <div class="social-icons">
+                            <a href="https://wa.me/09074919519"><i class="fa fa-whatsapp"></i></a>
+                            <a href="https://www.twitter.com/allieeagle1"><i class="fa fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/allieeagleweb"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/allie-eagle-188685232"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action="index.html">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Developed with <i class="fa fa-heart-o"></i> by <b>Allie Eagle</b> &copy; 2022</p>
+            </div>
+        </div>
+
+
+        <script src="style.js"></script>
+
+</body>
+
+</html>
